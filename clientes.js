@@ -22,8 +22,6 @@ document.addEventListener("keyup", e=>{
 
 
 
-
-
 lista=JSON.parse(localStorage.getItem('lista'))
 
 for(let i=0; i<lista.length; i++){

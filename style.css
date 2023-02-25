@@ -221,7 +221,7 @@ tbody{
 
 }
 .infocredito{
-    width: 300px;
+    width: 100%;
     height: 30px;
     border: solid 1px darkgray;
     border-radius: 7px;
@@ -274,7 +274,7 @@ tbody{
     gap: 10px;
 }
 .inputnuevocliente{
-    width: 200px;
+    width: 100%;
     height: 30px;
     border: solid 1px darkgray;
     border-radius: 7px;
