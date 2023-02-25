@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="menu">
+            <div class="usuario">
+                <img src="./resorces/admin.png" class="user" alt="">
+                <h4>Admin</h4>
+            </div>
+            <div class="opciones">
+                <div class="inicio">
+                    <img src="./resorces/home.png" alt="">
+                    <a href="./index.html"><p>Inicio</p></a>
+                </div>
+                <div class="inicio">
+                    <img src="./resorces/clientes.png" alt="">
+                    <a href="clientes.html"><p>Clientes</p></a>
+                </div>
+                <div class="inicio">
+                    <img src="./resorces/creditos.png" alt="">
+                    <a href="credito.html"><p>Credito</p></a>
+                </div>
+            </div>
+            <button class="cerrarsesion">Cerrar sesion</button>
+        </div>
+        
+        <div class="contenido">
+            <div class="titulo">
+                <h1>Nuevo Cliente</h1>
+            </div>
+            <div class="nuevocliente">
+                <div class="infonuevocliente">
+                    <div class="nuevoclienteizquierda">
+                        <label for="">Nombres</label>
+                        <input id="nombrecliente" class="inputnuevocliente" type="text" placeholder="Nombres">
+                        <label for="">NIT/CC</label>
+                        <input id="nitcliente" class="inputnuevocliente" type="text" placeholder="NIT/CC">
+                        <label for="">Ciudad</label>
+                        <input type="text" id="ciudadcliente" class="inputnuevocliente" placeholder="ciudad"> 
+                        <label for="">Contacto</label>
+                        <input id="contactocliente" class="inputnuevocliente" type="text" placeholder="Contacto">
+                    </div>
+                    <div class="nuevoclientemedio">
+                        <label for="">Apellidos</label>
+                        <input id="apellidoscliente" class="inputnuevocliente" type="text" placeholder="Apellidos">
+                        <label for="">Direccion</label>
+                        <input id="direccioncliente" class="inputnuevocliente" type="text" placeholder="Direccion">
+                        <label for="">Telefono</label>
+                        <input id="telefonocliente" class="inputnuevocliente" type="text" placeholder="Telefono">
+                        <label for="">Estado</label>
+                        <input type="text" id="estadocliente" class="inputnuevocliente" placeholder="estado">
+                    </div>
+                    <div class="nuevoclientelinea"></div>
+                    <div class="nuevoclientederecha">
+                        <label for="">Cupo total</label>
+                        <input id="cupototalcliente" class="inputnuevocliente" type="text" placeholder="cupo total">
+                        <label for="">Cupo disponible</label>
+                        <input id="cupodisponiblecliente" class="inputnuevocliente" type="text" placeholder="cupo disponible">
+                        <label for="">Dias de gracia</label>
+                        <input id="diasdegraciacliente" class="inputnuevocliente" type="text" placeholder="dias de gracia">
+                    </div>
+                </div>
+                <button id="guardarcambios" class="guardarcambios">Guardar Cambios</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="./nuevocliente.js"></script>
+</body>
+</html>

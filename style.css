@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(192, 226, 255, 0.37);
+
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.menu{
+    position: absolute;
+    left: 20px;
+    top: 5vh;
+    height: 90vh;
+    width: 15vw;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.opciones{
+    position: absolute;
+    left: 10px;
+    top: 35vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contenido{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.titulo{
+    position: relative;
+    top: 5vh;
+    width: 100%;
+    height: 60px;
+    background-color:white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(138, 52, 213);
+    
+}
+img{
+    width: 25px;
+}
+.usuario{
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user{
+    width: 50px;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.clientes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    top: 120px;
+
+}
+
+.cerrarsesion{
+    position: absolute;
+    background-color: rgb(138, 52, 213);
+    border: none;
+    height: 30px;
+    border-radius: 7px;
+    color: white;
+    bottom: 20px;
+    width: 100px;
+    
+}
+.credito{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 5px 1px rgba(0, 0, 0, 0.249);
+    background-color: white;
+}
+.numeroclientes{
+    background-color: white;
+    border-radius: 12px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    box-shadow: 0px 10px 5px 1px rgba(0, 0, 0, 0.249);
+}
+.creditos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.numclientes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+h3{
+    font-size:25px;
+    color: rgb(138, 52, 213);
+}
+/* ///////////////////////////////////////////////clientes////////////////////////////////////////////////// */
+
+.tablaclientes{
+    position: absolute;
+    top: 140px;
+    background-color: white;
+    width: 80%;
+    min-height: 77%;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.buscar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.search{
+    height:40px;
+    width: 300px;
+    padding-left: 10px;
+    border: 1px solid darkgray;
+    border-radius: 7px;
+}
+.crearcliente{
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(138, 52, 213);
+    color: white;
+}
+.bi-search{
+    position: absolute;
+    top: 53px;
+    left: 320px;
+}
+table{
+    border-radius: 7px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(138, 52, 213);
+    
+}
+thead{
+    height: 40px;
+    color: white;
+
+}
+tbody{
+    background-color: white;
+    height: 40px;
+    
+}
+/* //////////////////////////////Nuevo Credito////////////////////////////////////////// */
+
+.nuevocredito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border-radius: 7px;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.249);
+}
+.informacioncredito{
+    display: flex;
+    gap: 80px;
+}
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.derecha{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.infocredito{
+    width: 300px;
+    height: 30px;
+    border: solid 1px darkgray;
+    border-radius: 7px;
+}
+.crearcredito{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(138, 52, 213);
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+/* ////////////////nuevo cliente //////////////////////////////////////// */
+
+.nuevocliente{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border-radius: 7px;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.249);
+}
+.infonuevocliente{
+    display: flex;
+    gap: 30px;
+}
+.nuevoclienteizquierda{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.nuevoclientemedio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.nuevoclientelinea{
+    border: solid 1px darkgray;
+}
+.nuevoclientederecha{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inputnuevocliente{
+    width: 200px;
+    height: 30px;
+    border: solid 1px darkgray;
+    border-radius: 7px;
+}
+.guardarcambios{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(138, 52, 213);
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+button{
+    cursor: pointer;
+}
+
+
+.filtro{
+    display: none;
+}
+
+
+
+
+
+
+
